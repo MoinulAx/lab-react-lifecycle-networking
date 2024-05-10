@@ -1,8 +1,12 @@
-import React from "react";
-import NavBar from "./Components/NavBar";
-import EmployeeList from "./Components/EmployeeList";
+import React, { useEffect, useState } from "react";
+import NavBar from './Components/NavBar/NavBar.jsx'
+import EmployeeList from "./Components/EmployeeList/EmployeeList";
+
 
 function App () {
+
+
+
   return (
     <>
       <NavBar />
